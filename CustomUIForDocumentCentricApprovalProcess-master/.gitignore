@@ -1,0 +1,6 @@
+/mta_archives/
+/node_modules/
+/resources/
+.DS_STORE
+package-lock.json
+*-content.zip*
