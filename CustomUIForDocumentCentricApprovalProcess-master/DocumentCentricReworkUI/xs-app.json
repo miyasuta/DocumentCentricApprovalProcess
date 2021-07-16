@@ -4,14 +4,7 @@
     "logout": {
         "logoutEndpoint": "/do/logout"
     },
-    "routes": [
-        {
-            "source": "^/workflowruntime/(.*)$",
-            "target": "/$1",
-            "destination": "WorkflowRESTAPI",
-            "authenticationType": "xsuaa",
-            "cacheControl": "no-cache, no-store, must-revalidate"
-        },           
+    "routes": [          
         {
             "source": "^/workflowruntime/(.*)$",
             "target": "/$1",

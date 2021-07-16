@@ -241,6 +241,7 @@
 			"subject": "Approval for Request ${context.Title}  ${context.RequestId}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
+			"supportsForward": false,
 			"userInterface": "sapui5://DocumentCentricApproval.comsapbpmDocumentCentricTaskUI/com.sap.bpm.DocumentCentricTaskUI",
 			"recipientUsers": "${context.step.approvalStepData.ApproverUserName}",
 			"userInterfaceParams": [],
@@ -284,6 +285,7 @@
 			"subject": "Rework Required for Request  ${context.Title}  ${context.RequestId} ",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
+			"supportsForward": false,
 			"userInterface": "sapui5://DocumentCentricApproval.comsapbpmDocumentCentricReworkUI/com.sap.bpm.DocumentCentricReworkUI",
 			"recipientUsers": "${context.Requester.UserId} ",
 			"id": "usertask2",
@@ -807,29 +809,29 @@
 		"bc3d3665-c0a3-4b84-a0d8-5339f99ffc25": {
 			"classDefinition": "com.sap.bpm.wfs.ui.MailTaskSymbol",
 			"x": 718.0625,
-			"y": 195.4375,
+			"y": 214.4375,
 			"width": 100,
 			"height": 60,
 			"object": "8402446e-8c91-414e-baee-ca92d595c2d1"
 		},
 		"df4b4532-7f05-4092-843e-97fab0695bc5": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "768.0625,163.4375 768.0625,225.4375",
+			"points": "768.0625,163.4375 768.0625,244.4375",
 			"sourceSymbol": "7a3352f0-5d28-4065-9d97-c25451b2ef06",
 			"targetSymbol": "bc3d3665-c0a3-4b84-a0d8-5339f99ffc25",
 			"object": "baab2024-a604-48e5-b924-1de3619f0b9d"
 		},
 		"d25eef97-1136-4c3c-80a6-42c75917b747": {
 			"classDefinition": "com.sap.bpm.wfs.ui.EndEventSymbol",
-			"x": 750.0625,
-			"y": 286.9375,
+			"x": 752.0625,
+			"y": 334.9375,
 			"width": 35,
 			"height": 35,
 			"object": "ec9cd427-bdc5-4bff-a77c-ef6d2f7a19ca"
 		},
 		"b6965c90-dca1-4bcb-afa0-c5bee84dbe32": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "767.8125,225.4375 767.8125,304.4375",
+			"points": "768.8125,244.4375 768.8125,352.4375",
 			"sourceSymbol": "bc3d3665-c0a3-4b84-a0d8-5339f99ffc25",
 			"targetSymbol": "d25eef97-1136-4c3c-80a6-42c75917b747",
 			"object": "7b1b114f-3507-44db-b7b7-ca8d29f65c3d"

@@ -15,17 +15,10 @@
         {
             "source": "^/workflowruntime/(.*)$",
             "target": "/$1",
-            "destination": "WorkflowRESTAPI",
-            "authenticationType": "xsuaa",
-            "cacheControl": "no-cache, no-store, must-revalidate"
-        },                
-        {
-            "source": "^/workflowruntime/(.*)$",
-            "target": "/$1",
             "service": "com.sap.bpm.workflow",
             "endpoint": "workflow_rest_url",
             "authenticationType": "xsuaa"
-        },        
+        },                                
         {
             "source": "^/docservice/(.*)$",
             "target": "/$1",
